@@ -1,0 +1,42 @@
+body,
+html {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background: rgb(207, 69, 0);
+  background: linear-gradient(349deg, #08203e 0%, #557c93 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: rgb(247, 247, 247);
+}
+p {
+  color: aliceblue;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  /* Menambahkan border dengan warna yang ditentukan */
+  border: 1px solid #000000;
+  /* Memberikan efek transparan blur pada border */
+  padding: 8px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+  /* Menambahkan efek hover untuk menunjukkan interaktivitas */
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  /* Mengubah warna latar belakang pada hover */
+  background-color: rgba(255, 255, 255, 0.1);
+  /* Mengubah warna teks pada hover */
+  color: lightgray;
+}
